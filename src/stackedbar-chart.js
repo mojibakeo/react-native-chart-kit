@@ -117,7 +117,7 @@ class StackedBarChart extends AbstractChart {
       width,
       height
     };
-    let border = 0;
+    let border = 1;
     for (let i = 0; i < data.data.length; i++) {
       const actual = data.data[i].reduce((pv, cv) => pv + cv, 0);
       if (actual > border) {

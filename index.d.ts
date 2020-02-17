@@ -257,6 +257,7 @@ export interface StackedBarChartProps {
   style?: ViewStyle;
   barPercentage?: number;
   hideLegend: boolean;
+  decimalPlaces?: number;
   /**
    * The number of horizontal lines
    */
